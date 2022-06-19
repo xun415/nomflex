@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/nomflex/static/js/main.c77f5393.js",
+    "main.js": "/nomflex/static/js/main.e3b28910.js",
     "index.html": "/nomflex/index.html",
-    "main.c77f5393.js.map": "/nomflex/static/js/main.c77f5393.js.map"
+    "main.e3b28910.js.map": "/nomflex/static/js/main.e3b28910.js.map"
   },
   "entrypoints": [
-    "static/js/main.c77f5393.js"
+    "static/js/main.e3b28910.js"
   ]
 }
