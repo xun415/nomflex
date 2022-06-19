@@ -58,7 +58,7 @@ interface movies {
 
 function Home() {
     const navigate = useNavigate();
-    const bigMovieMatch = useMatch('/movies/:movieId');
+    const bigMovieMatch = useMatch(`${process.env.PUBLIC_URL}/movies/:movieId`);
     const [movies, setMovies] = useState<movies[]>([])
     const [movieDetail, setMovieDetail] = useState<IMovie>();
 

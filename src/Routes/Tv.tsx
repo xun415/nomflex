@@ -58,7 +58,7 @@ interface movies {
 
 function Tv() {
     const navigate = useNavigate();
-    const biTvMatch = useMatch('/tv/:tvId');
+    const biTvMatch = useMatch(`${process.env.PUBLIC_URL}/tv/:tvId`);
     const [tvs, setTvs] = useState<movies[]>([])
     const [tvDetail, setTvDetail] = useState<ITvShow>();
 

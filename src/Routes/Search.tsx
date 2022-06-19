@@ -79,8 +79,8 @@ function Search() {
     const keyword = new URLSearchParams(location.search).get("keyword")
 
     const navigate = useNavigate();
-    const bigMovieMatch = useMatch('/search/movie/:id');
-    const bigTvMatch = useMatch('/search/tv/:id')
+    const bigMovieMatch = useMatch(`${process.env.PUBLIC_URL}/search/movie/:id`);
+    const bigTvMatch = useMatch(`${process.env.PUBLIC_URL}/search/tv/:id`)
 
     const [searchDetail, setSearchDetail] = useState<IMovie | ITvShow>();
 
